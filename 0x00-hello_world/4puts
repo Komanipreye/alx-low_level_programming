@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -o 4-puts.c
+gcc 4-puts.c 
