@@ -4,14 +4,14 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - main function
+ * main - Entry function
  *
  * Description: This program assigns a random number to the variable n
  * each time it is executed. It then prints the last digit of n and
  * evaluates if the last digit is greater than 5, is 0, or is less
  * than 6 and not 0.
  *
- * return: return always 0
+ * return: always 0
  */
 int main(void)
 {
