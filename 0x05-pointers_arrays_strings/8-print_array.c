@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * char *_strcpy - a function that copies the string pointed to by src
- * @dest: destination of the string
- * @src: source of the string
- * Return: string
+ * print_array - a function that prints n elements of an array
+ * @a: array name
+ * @n: is the number of elements OF the array to be printed
  */
 
 void print_array(int *a, int n)
