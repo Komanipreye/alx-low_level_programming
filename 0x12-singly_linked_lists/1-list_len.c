@@ -7,10 +7,14 @@
  * Return: number of elements in a linked list
  */
 size_t list_len(const list_t *h)
-{
-	int i;
+	{
+	size_t cont = 0;
 
-	for (i = 0; h; i++)
+	while (h)
+	{
+		cont++;
 		h = h->next;
-	return (i);
+	}
+
+	return (cont);
 }
